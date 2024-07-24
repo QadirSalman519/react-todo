@@ -1,6 +1,6 @@
 function App() {
     return (
-        <center>TODO React App</center>
+        <center>TODO App</center>
     )
 }
 
