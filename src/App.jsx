@@ -4,10 +4,6 @@ import TodoItem1 from './components/TodoItem1';
 import TodoItem2 from './components/TodoItem2';
 
 function App() {
-  const myName = "aqs";
-  const fullName = () => {
-    return "Qadir Salman"
-  }
   return (
     <>
       <AppName />
@@ -16,8 +12,6 @@ function App() {
         <TodoItem1 />
         <TodoItem2 />
       </div>
-
-      <h1>Hello, {fullName()} - {myName}</h1>
     </>
   )
 }
