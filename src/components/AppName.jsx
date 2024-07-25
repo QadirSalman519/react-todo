@@ -1,6 +1,8 @@
+import styles from './AppName.module.css'
+
 function App() {
     return (
-        <center>TODO App</center>
+        <center className={styles.todoHeading}>TODO App</center>
     )
 }
 
